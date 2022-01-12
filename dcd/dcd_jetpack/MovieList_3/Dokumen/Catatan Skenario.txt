@@ -1,0 +1,109 @@
+Unit Test
+#MainViewModelTest
+- Memuat Movie
+ - Memanipulasi data ketika pemanggilan data movie di kelas repository
+ - Memastikan metode di kelas repository terpanggil
+ - Memastikan data movie tidak null
+ - Memastikan data movie berjumlah 10
+
+- Memuat Tv Show
+ - Memanipulasi data ketika pemanggilan data tv show di kelas repository
+ - Memastikan metode di kelas repository terpanggil
+ - Memastikan data tv show tidak null
+ - Memastikan data tv show berjumlah 10
+
+#DetailMovieViewModelTest
+- Memuat Detail Movie
+ - Memanipulasi data ketika pemanggilan data detail movie di kelas repository
+ - Memastikan metode di kelas repository terpanggil
+ - Memastikan data detail movie tidak null
+ - Memastikan data id sesuai dengan yang diharapkan
+ - Memastikan data movie id sesuai dengan yang diharapkan
+ - Memastikan data name sesuai dengan yang diharapkan
+ - Memastikan data description sesuai dengan yang diharapkan
+ - Memastikan data poster sesuai dengan yang diharapkan
+ - Memastikan data image preview sesuai dengan yang diharapkan
+
+- Memuat Detail Tv Show
+ - Memanipulasi data ketika pemanggilan data detail tv show di kelas repository
+ - Memastikan metode di kelas repository terpanggil
+ - Memastikan data detail tv show tidak null
+ - Memastikan data id sesuai dengan yang diharapkan
+ - Memastikan data tv show id sesuai dengan yang diharapkan
+ - Memastikan data name sesuai dengan yang diharapkan
+ - Memastikan data description sesuai dengan yang diharapkan
+ - Memastikan data poster sesuai dengan yang diharapkan
+ - Memastikan data image preview sesuai dengan yang diharapkan
+
+#FavoriteViewModelTest
+- Memuat Favorite Movie
+ - Memanipulasi data ketika pemanggilan data favorite movie di kelas repository
+ - Memastikan metode di kelas repository terpanggil
+ - Memastikan data favorite movie tidak null
+ - Memastikan data favorite movie berjumlah 5
+
+- Memuat Favorite Tv Show
+ - Memanipulasi data ketika pemanggilan data favorite tv show di kelas repository
+ - Memastikan metode di kelas repository terpanggil
+ - Memastikan data favorite tv show tidak null
+ - Memastikan data favorite tv show berjumlah 5
+
+Instrumental Test
+#MainHomeActivityTest
+- Memuat Movie dan Tv Show
+ - Memastikan tampilan movie muncul
+ - Memastikan scroll movie
+ - Memastikan klik navigasi ke tv show
+ - Memastikan tampilan tv show muncul
+ - Memastikan scroll tv show
+ - Memastikan klik navigasi ke movie
+
+- Memuat View
+ - Memastikan tampilan movie muncul
+ - Memastikan klik navigasi ke tv show
+ - Memastikan tampilan tv show muncul
+ - Memastikan klik navigasi ke favorite
+ - Memastikan klik navigasi ke list tv show
+ - Memastikan klik navigasi ke list movie
+ - Memastikan klik navigasi ke movie
+
+- Memuat Favorite
+ - Memastikan RecyclerView movie muncul
+ - Memastikan klik movie yang diinginkan
+ - Memastikan klik tombol favorite movie
+ - Back button
+ - Memastikan klik navigasi ke tv show
+ - Memastikan RecyclerView tv show muncul
+ - Memastikan klik tv show yang diinginkan
+ - Memastikan klik tombol favorite tv show
+ - Back button
+ - Memastikan klik navigasi ke favorite
+ - Memastikan klik favorite movie yang diinginkan
+ - Memastikan klik tombol favorite movie
+ - Back button
+ - Memastikan klik navigasi ke favorite
+ - Memastikan klik navigasi ke list tv show
+ - Memastikan klik favorite tv show yang diinginkan
+ - Memastikan klik tombol favorite tv show
+ - Back button
+
+- Memuat Detail Movie
+ - Memastikan RecyclerView movie muncul
+ - Memastikan scroll movie yang diinginkan
+ - Memastikan klik movie yang diinginkan
+ - Memastikan tampilan image preview muncul
+ - Memastikan tampilan poster muncul
+ - Memastikan tampilan name muncul
+ - Memastikan tampilan description muncul
+ - Back button
+
+- Memuat Detail Tv Show
+ - Memastikan klik navigasi ke tv show
+ - Memastikan RecyclerView tv show muncul
+ - Memastikan scroll tv show yang diinginkan
+ - Memastikan klik tv show yang diinginkan
+ - Memastikan tampilan image preview muncul
+ - Memastikan tampilan poster muncul
+ - Memastikan tampilan name muncul
+ - Memastikan tampilan description muncul
+ - Back button

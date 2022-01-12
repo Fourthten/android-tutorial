@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="title_movie">Detail Movie</string>
+    <string name="title_tvshow">Detail TV Show</string>
+    <string name="movie">Movie</string>
+    <string name="tvshow">TV Show</string>
+    <string name="list_movie">List Movie</string>
+    <string name="list_tvshow">List TV Show</string>
+    <string name="favorite">Favorite</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_conn">No internet connection</string>
+    <string name="empty_favorite">No favorites yet.</string>
+    <string name="empty_movie">You don\'t have a list of favorite movies</string>
+    <string name="empty_tvshow">You don\'t have a list of favorite tv show</string>
+</resources>

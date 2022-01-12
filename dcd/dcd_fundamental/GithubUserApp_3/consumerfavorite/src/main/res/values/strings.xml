@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConsumerFavorite</string>
+    <string name="user_username">Username</string>
+    <string name="user_name">Name</string>
+</resources>

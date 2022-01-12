@@ -1,0 +1,59 @@
+Unit Test
+#MainViewModelTest
+- Memuat Movie
+ - Memastikan data movie tidak null
+ - Memastikan data movie berjumlah 10
+
+- Memuat Tv Show
+ - Memastikan data tv show tidak null
+ - Memastikan data tv show berjumlah 10
+
+#DetailMovieViewModelTest
+- Memuat Detail Movie
+ - Memastikan data detail movie tidak null
+ - Memastikan data name sesuai dengan yang diharapkan
+ - Memastikan data description sesuai dengan yang diharapkan
+ - Memastikan data poster sesuai dengan yang diharapkan
+ - Memastikan data image preview sesuai dengan yang diharapkan
+
+- Memuat Detail Tv Show
+ - Memastikan data detail tv show tidak null
+ - Memastikan data name sesuai dengan yang diharapkan
+ - Memastikan data description sesuai dengan yang diharapkan
+ - Memastikan data poster sesuai dengan yang diharapkan
+ - Memastikan data image preview sesuai dengan yang diharapkan
+
+Instrumental Test
+#MainHomeActivityTest
+- Memuat Movie dan Tv Show
+ - Memastikan tampilan movie muncul
+ - Memastikan scroll movie
+ - Memastikan klik navigasi ke tv show
+ - Memastikan tampilan tv show muncul
+ - Memastikan scroll tv show
+ - Memastikan klik navigasi ke movie
+
+- Memuat Detail Movie
+ - Memastikan RecyclerView movie muncul
+ - Memastikan scroll movie yang diinginkan
+ - Memastikan klik movie yang diinginkan
+ - Memastikan tampilan image preview muncul
+ - Memastikan tampilan poster muncul
+ - Memastikan tampilan name muncul
+ - Memastikan tampilan description muncul
+ - Memastikan data name sesuai dengan yang diharapkan
+ - Memastikan data description sesuai dengan yang diharapkan
+ - Back button
+
+- Memuat Detail Tv Show
+ - Memastikan klik navigasi ke tv show
+ - Memastikan RecyclerView tv show muncul
+ - Memastikan scroll tv show yang diinginkan
+ - Memastikan klik tv show yang diinginkan
+ - Memastikan tampilan image preview muncul
+ - Memastikan tampilan poster muncul
+ - Memastikan tampilan name muncul
+ - Memastikan tampilan description muncul
+ - Memastikan data name sesuai dengan yang diharapkan
+ - Memastikan data description sesuai dengan yang diharapkan
+ - Back button

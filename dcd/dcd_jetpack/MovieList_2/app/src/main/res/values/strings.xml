@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="title_movie">Detail Movie</string>
+    <string name="title_tvshow">Detail TV Show</string>
+    <string name="movie">Movie</string>
+    <string name="tvshow">DTV Show</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

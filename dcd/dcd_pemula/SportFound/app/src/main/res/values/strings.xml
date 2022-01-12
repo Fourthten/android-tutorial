@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SportFound</string>
+    <string name="sporthall_name">Nama Gedung Olahraga</string>
+    <string name="sporthall_location">Lokasi</string>
+    <string name="sporthall_time">08.00 - 22.00</string>
+    <string name="sporthall_day">Senin - Kamis</string>
+    <string name="profile_name">Agung Setiawan</string>
+    <string name="profile_email">agung0410@gmail.com</string>
+    <string name="list_name">Daftar GOR</string>
+</resources>
